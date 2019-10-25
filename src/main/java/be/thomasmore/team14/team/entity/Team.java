@@ -12,6 +12,7 @@ public class Team {
     private String name;
     private String ownerId;
     private String gameId;
+    private String imageUrl;
 
     public String getId() {
         return id;
@@ -43,5 +44,13 @@ public class Team {
 
     public void setGameId(String gameId) {
         this.gameId = gameId;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
