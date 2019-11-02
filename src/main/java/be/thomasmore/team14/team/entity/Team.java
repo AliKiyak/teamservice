@@ -10,7 +10,8 @@ public class Team {
     @Id
     private String id;
     private String name;
-    private String ownerId;
+    private String owner;
+    private String description;
     private String gameId;
     private String imageUrl;
 
@@ -30,12 +31,20 @@ public class Team {
         this.name = name;
     }
 
-    public String getOwnerId() {
-        return ownerId;
+    public String getDescription() {
+        return description;
     }
 
-    public void setOwnerId(String ownerId) {
-        this.ownerId = ownerId;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
     }
 
     public String getGameId() {
