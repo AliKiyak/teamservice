@@ -6,7 +6,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 public interface TeamRepository extends MongoRepository<Team, String> {
-    List<Team> findTeamById(@Param("id") String id);
+    Team findTeamById(@Param("id") String id);
     List<Team> findTeamByGameId(@Param("gameid") String gameId);
     long deleteTeamsByGameId(@Param("gameid") String gameeId);
 }
