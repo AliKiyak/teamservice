@@ -1,5 +1,5 @@
 # Team service 
-This is the micro service that handles all calls directly associated with the **Team** entity. It contain the standard GET, PUT, POST and delete methods. It also contains different sorts of methods, e.g find a team by its id, find a team containing e certain string in their name and etc.
+This is the micro service that handles all calls directly associated with the **Team** entity. It contains the standard GET, PUT, POST and delete methods. It also contains different sorts of methods, e.g find a team by its id, find a team containing e certain string in their name and etc.
 
 ## Context
 The Esports wiki allows you to find every bit of information about the games, teams, tournaments and players that are involved in Espors. You can look at them in detail, add, delete or even edit them. This way you can keep your own database about your favorite esports game / team.
